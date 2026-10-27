@@ -1,0 +1,10 @@
+# 가상환경 / 빌드 부산물
+.venv/
+__pycache__/
+build/
+dist/
+*.spec
+
+# 실행 파일은 저장소에 넣지 않고 GitHub Releases로 배포
+*.exe
+*.zip
